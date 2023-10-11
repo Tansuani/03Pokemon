@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(22.65 0 0 22.65 321.84 240.16)" id="mdi-pokemon-go"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-12, -12.11)" d="M 12 2 A 7 7 0 0 1 19 9 C 19 10.4 18.59 11.71 17.88 12.8 L 12 22.21 L 6.12 12.8 C 5.41 11.71 5 10.4 5 9 A 7 7 0 0 1 12 2 M 12 3.5 C 9.3 3.5 7.06 5.44 6.59 8 H 9.17 C 9.58 6.83 10.69 6 12 6 C 13.31 6 14.42 6.83 14.83 8 H 17.41 C 16.94 5.44 14.7 3.5 12 3.5 M 12 12 C 10.69 12 9.58 11.17 9.17 10 H 6.59 C 6.72 10.69 6.97 11.34 7.34 11.91 V 11.91 L 7.38 12 C 8.36 13.5 10.06 14.5 12 14.5 C 13.94 14.5 15.64 13.5 16.62 12 L 16.66 11.91 V 11.91 C 17.03 11.34 17.28 10.69 17.41 10 H 14.83 C 14.42 11.17 13.31 12 12 12 M 12 7.5 A 1.5 1.5 0 0 0 10.5 9 A 1.5 1.5 0 0 0 12 10.5 A 1.5 1.5 0 0 0 13.5 9 A 1.5 1.5 0 0 0 12 7.5 Z" stroke-linecap="round" />
+</g>
+</svg>

@@ -11,20 +11,20 @@ body {
 h1 {
   margin-bottom: 0;
 }
-
-
-/* Navbar */
-a {
-  text-decoration: none;
+.navibar{
+  text-align: right;
+  padding: 15px;
+  background-color: rgb(100, 99, 99);
   color: white;
+  display: flex;
 }
-
-.navbar {
-  background: #43a047;
-  padding: 20px;
-  color: white;
+.active {
+  color: darkred;
 }
-
+.logo{
+  width: 25px;
+  align-content: start;
+}
 /* gallery */
 .gallery {
   display: grid;
