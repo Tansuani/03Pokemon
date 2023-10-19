@@ -1,25 +1,34 @@
-import { Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation";
+import { Route, Routes } from 'react-router-dom'
+import Menu from './components/Menu'
+import Home from './views/Home'
+import Pokemons from './views/Pokemons'
+import Details from './views/Details'
+import NotFound from './views/NotFound'
 
-import Favorites from "./views/Favorites";
-import Home from "./views/Home";
-
-const App = () => {
+function App() {
   return (
-    <div>
-      <Navigation />
-
+    <div className="App">
+      <Menu />
       <Routes>
         <Route
           path="/"
           element={<Home />}
         />
         <Route
-          path="/favoritos"
-          element={<Favorites />}
+          path="/pokemons"
+          element={<Pokemons />}
+        />
+        <Route
+          path="/pokemons/:name"
+          element={<Details />}
+        />
+        <Route
+          path="*"
+          element={<NotFound />}
         />
       </Routes>
     </div>
-  );
-};
-export default App;
+  )
+}
+
+export default App

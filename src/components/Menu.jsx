@@ -12,22 +12,22 @@ const Menu = () => {
         >
             <Navbar.Brand>
                 <img
-                width="50"
-                src="/assets/img/poke-icon.jpg"
-                alt=""
+                    width="50"
+                    src="/assets/img/poke-icon.jpg"
+                    alt=""
                 />
             </Navbar.Brand>
             <div>
                 <NavLink
-                className={activeClass + "m-3"}
-                to="/"
+                    className={activeClass + "m-3"}
+                    to="/"
                 >
                     Home
                 </NavLink>
 
                 <NavLink
-                className={activeClass}
-                to="/pokemons"
+                    className={activeClass}
+                    to="/pokemons"
                 >
                     Pokemones
                 </NavLink>

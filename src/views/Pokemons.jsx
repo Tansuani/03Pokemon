@@ -1,4 +1,4 @@
-import { Button } from "react-bootstrap";
+
 import { useEffect, useState } from 'react'
 import { useNavigate } from "react-router-dom";
 
@@ -16,15 +16,15 @@ const Pokemons = () => {
 
     const goToPokemonDetails = () => {
         pokemonesSelected ? navigated(`/pokemons/${pokemonesSelected}`)
-        : alert('Debes seleccionar tu pokemon')
+            : alert('Debes seleccionar tu pokemon')
     }
     useEffect(() => {
         getPokemons()
-    },[])
+    }, [])
 
 
     return (
-        
+
         <div className="mt -5 text-center" >
 
             <h1>Selecciona un pokemon</h1>
@@ -32,23 +32,23 @@ const Pokemons = () => {
             <div className="col -5 col -sm-3 col -lg-2 mx -auto">
 
                 <select className="form-select text-center" defaultValue=""
-                 onChange={({ target }) => setPokemonesSelected(target.value)}>
+                    onChange={({ target }) => setPokemonesSelected(target.value)}>
 
                     <option value="" disabled>---</option>
-            
-                    {pokemones.map(({ name}, i) => (
 
-                        <option key={i} value= {name} >{name}
+                    {pokemones.map(({ name }, i) => (
+
+                        <option key={i} value={name} >{name}
                         </option>
 
                     ))}
                 </select>
 
                 <button
-                    onClick= {goToPokemonDetails}
+                    onClick={goToPokemonDetails}
                     variant="dark"
                     className="mt-3">
-                        Buscar
+                    Buscar
                 </button>
             </div>
         </div>
