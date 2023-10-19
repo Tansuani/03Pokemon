@@ -24,17 +24,14 @@ const Menu = () => {
                 >
                     Home
                 </NavLink>
-
                 <NavLink
                     className={activeClass}
                     to="/pokemons"
                 >
-                    Pokemones
+                    Pokemons
                 </NavLink>
             </div>
         </Navbar>
     )
-
 }
-
 export default Menu

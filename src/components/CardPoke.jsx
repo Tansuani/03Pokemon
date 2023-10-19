@@ -14,7 +14,7 @@ const CardPoke = ({ pokemon }) => {
         <>
             <section className='container text-center'>
                 <Card
-                    style={{ width: '37rem' }}
+                    style={{ width: '35rem' }}
                     className="mt -5 mx-auto text-center shadow-lg p-3 nb-5 bg-dark rounded text-white"
                 >
                     <Card.Img
@@ -41,14 +41,10 @@ const CardPoke = ({ pokemon }) => {
                     onClick={handleClick}
                     className="btn btn-info btn-lg btn-block mt-1"
                 >
-                    back
+                    Back
                 </button>
             </section>
         </>
-
-
-
     )
-
 }
 export default CardPoke

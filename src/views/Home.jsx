@@ -7,9 +7,7 @@ const Home = () => {
         src="src\assets\images\poke1.png"
         alt=""
       />
-
     </div>
   )
-
 }
 export default Home
